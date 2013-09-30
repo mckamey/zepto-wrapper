@@ -4,15 +4,15 @@ if (!('__proto__' in document)) {
 
 	// inject jQuery into any unsupported browser
 	var src = document.location.protocol;
-	if (src.indexOf('http') < 0) {
+	if (src.indexOf('http')) {
 		// note Cordova loads as 'file:'
 		src = 'http:';
 	}
-	src += '//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js';
+	src += '//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js';
 
 	try {
 		// attempt synchronous inline to maintain script order
-		document.write('\u003cscript type="text/javascript" src="'+src+'">\u003c/script>');
+		document.write('\u003cscript src="'+src+'">\u003c/script>');
 
 	} catch (ex) {
 		// allow asynchronous lazy loading as fallback

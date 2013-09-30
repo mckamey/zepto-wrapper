@@ -1,7 +1,8 @@
 #!/bin/bash
 set -e
 
-export MODULES='intro unsupported polyfill zepto detect event ajax form fx outro'
+#export MODULES='intro unsupported zepto event ajax form outro'
+export MODULES='intro unsupported zepto event detect fx ajax form outro'
 
 SCRIPT_PATH=$0
 SCRIPT_DIR=${SCRIPT_PATH%/*}

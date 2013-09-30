@@ -32,13 +32,12 @@ By default these are the included modules:
 
 - [**intro**](https://github.com/mckamey/zepto-wrapper/blob/master/build.sh#files) - start of the wrapper
 - [**unsupported**](https://github.com/mckamey/zepto-wrapper/blob/master/src/unsupported.js#files) - supported test and jQuery lazy loader
-- [**polyfill**](https://github.com/madrobby/zepto)
 - [**zepto**](https://github.com/madrobby/zepto)
-- [**detect**](https://github.com/madrobby/zepto)
 - [**event**](https://github.com/madrobby/zepto)
+- [**detect**](https://github.com/madrobby/zepto)
+- [**fx**](https://github.com/madrobby/zepto)
 - [**ajax**](https://github.com/madrobby/zepto)
 - [**form**](https://github.com/madrobby/zepto)
-- [**fx**](https://github.com/madrobby/zepto)
 - [**outro**](https://github.com/mckamey/zepto-wrapper/blob/master/build.sh#files) - end of the wrapper
 
 Minification
